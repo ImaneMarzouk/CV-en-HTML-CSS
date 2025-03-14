@@ -1,0 +1,79 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.cv {
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sidebar {
+    width: 35%;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+.p-def{
+    text-align: center;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.sidebar h3 {
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+.sidebar p i {
+    margin-right: 8px;
+}
+
+/* Contenu principal */
+.objectif {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.objectif section {
+    margin-bottom: 20px;
+}
+
+.objectif h2 {
+    font-size: 20px;
+    color: #2C3E50;
+    border-bottom: 2px solid #2C3E50;
+    padding-bottom: 5px;
+}
+
+.objectif p, .objectif ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.objectif ul {
+    list-style: none;
+    padding: 0;
+}
+
+.objectif ul li {
+    margin: 5px 0;
+}
+
+.objectif ul li i {
+    color: #2C3E50;
+    margin-right: 8px;
+}
+
+
